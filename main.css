@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.btnzel{
+    margin-top: 25px;
+    background-color: rgb(81, 207, 102);
+    border-radius: 20px;
+    font-size: 14px;
+    border: rgb(81, 207, 102);;
+}
+
+.yelowbtn{
+    margin-top: 25px;
+    background-color: rgb(242, 201, 76);
+    border-radius: 20px;
+    font-size: 14px;
+    border: rgb(242, 201, 76);
+}
+
+.testimonials {
+    display: flex;
+}
+
+/* .gapbox{
+    display: flex;
+} */
+
+.avatarbox{
+    width: 64px;
+    height: 64px;
+}
+
+.avatartop{
+    margin-top: 100px;
+}
+
+.test {
+    font-size: 17px;
+    color: #e67e22;
+    font-weight: 500;
+    text-transform: uppercase;}
+
+.oncetext{
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+}
+
+.jdajd{
+    width: 205px;
+    height: 205px;
+}
+
+.bg-Pink{
+    padding: 50px;
+}
+
+.bg-gray{
+    padding: 20px;
+}
+
+.boxfutr{
+    width: 440px;
+    height: 543px;
+    border: 1px solid #e67e22;
+    border-radius: 13px;
+}
+
+.boxdva{
+    border-radius: 13px;
+    width: 440px;
+    height: 543px;
+    background-color: rgb(254, 236, 222);
+    position: relative;
+}
+
+.best210{
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg);
+    top:    37px;
+}
+
+.best211{
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.dolar{
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: end;
+}
+
+.sena{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.persentr{
+    display: flex;
+    justify-content: center;
+    color: rgb(85, 85, 85);
+    padding-top: 3%;
+}
+
+.yellowtbn{
+    padding: 12px 24px ;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e67e22;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left:30%;
+    margin-top: 10%;
+}
+
+.vomtext{
+    display: flex;
+    padding-top: 7%;
+    justify-content: center;
+}
+
+.textgalochka{
+padding-top: 10%;
+margin-left: 12%;
+}
+
+.pritext{
+    color: #e67e22;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 23.4%;
+    padding-top: 5%;
+}
+
+.twewtw{
+    margin-left: 23.4%;
+    color: rgb(51, 51, 51);;
+    font-weight: 700;
+    font-size: 40px;
+ }
+
+ .logotop{
+    width: 158px;
+    height: 21px;
+ }
+
+ .justcentr{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 5%;
+ }
+
+ .boxsolid{
+    margin-top: 3%;
+}
+
+.conttext{
+    color: rgb(85, 85, 85);
+    font-family: Rubik;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hartext{
+    color: rgb(85, 85, 85);
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
