@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); 
+ 
+ 
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    color: #333333;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+    }
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-Pink {
+    background-color: #fdf2e9;
+}
+
+
+.bg-gray {
+    background-color: #f6f7f8;
+    
+}
+
+.header-container {
+
+    width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 43px 30px 100px 30px;
+}
+
+
+.logo {
+    width: 150px;
+    height: 21px;
+}
+
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+
+.nav a {
+    text-decoration: none;
+
+}
+
+
+.yellow-btn {
+    padding: 12px 24px ;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e67e22;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.white-btn {
+    padding: 12px 24px ;
+    font-size: 17px;
+    color: #555555;
+    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.sub-header {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 90px;
+}
+
+
+.sub-header img {
+    width: 50%;
+}
+
+
+.left-side h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.left-side p {
+    margin: 32px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #555555;
+}
+
+.btn-box {
+    display: flex;
+    gap: 1rem;
+    margin-top: 48px;
+    margin-bottom: 4rem;
+}
+
+
+.customer-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.customer-box span::before {
+    content: '250.000+';
+    color: #e67e22;
+}
+
+
+/* how-it-work */
+
+
+.how-it-works {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.how-it-works h5 {
+    text-align: center;
+    font-size: 17px;
+    color: #888888;
+}
+
+
+.magazine-box {
+    padding: 32px 0px 120px 0px;
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+.magazine-box img {
+    height: 2rem;
+}
+
+
+.section-title {
+    font-size: 17px;
+    color: #e67e22;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.steps-box {
+    display: flex;
+    gap: 264px;
+    margin-bottom: 72px
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+.description {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+.left span {
+    font-size: 72px;
+    font-weight: 700;
+    color: #DDDDDD;
+}
+
+
+.left h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.left p {
+    font-weight: 400;
+    font-size: 22px;
+    color: #555555;
+    line-height: 2rem;
+}
+
+.bg-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
+    background: #FFF3E9;
+}
+
+
+.small-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    background-color: #FFD8B7;
+}
+
+
+.right img {
+    width: 182px;
+}   
+
+.meltitle{
+    display: flex;
+    justify-content: center;
+    color: #e67e22;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.ometitl{
+   display: flex;
+   justify-content:center ;
+   color: rgb(51, 51, 51);;
+   font-weight: 700;
+   font-size: 40px;
+}
+
+.pelenbox{
+    width: 323px;
+}
+
+.pelbox{
+    
+    gap: 3rem;
+    width: 323px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 18px;
+    margin-top: 50px;
+}
+
+.pelBoxMain {
+    display:flex;
+    justify-content: center;   
+    gap: 3rem;
+    padding-top: 5%;
+}
+.textworks{
+    color:#333333;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+.logal{
+   width: 24px;
+   height: 24px;
+}
+
+.textgol{
+    color: #555555;
+    font-weight: 400;
+    font-size: 19px;
+    display: flex;
+    gap: 2rem;
+    margin-top: 27px;
+}
+
+.boxtext{
+    font-weight: 400;
+    font-size: 19px;
+    display: flex;
+    gap: 2rem;
+    margin-top: 27px;
+}
+
+.textjap{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+}
+
+.cnopka-btn{
+    margin-left: 30px;
+}
+
+.otstyp{
+    display: flex;
+    gap: 1rem;
+}
+.avatartop{
+    display: flex;
+    grid-template-columns: 200px 200px 200px 200px;
+}
